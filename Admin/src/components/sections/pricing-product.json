@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_pricing_products",
+  "info": { "displayName": "Pricing Product", "icon": "box" },
+  "options": {},
+  "attributes": {
+    "productKey": { "type": "string" },
+    "productLabel": { "type": "string" },
+    "tiers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.pricing-tier"
+    },
+    "comparisonRows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.pricing-row"
+    }
+  }
+}

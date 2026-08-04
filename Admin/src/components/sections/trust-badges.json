@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_trust_badges",
+  "info": { "displayName": "Trust Badges", "icon": "shield" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "badges": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.badge"
+    }
+  }
+}

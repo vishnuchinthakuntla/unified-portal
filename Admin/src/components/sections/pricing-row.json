@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_sections_pricing_rows",
+  "info": { "displayName": "Pricing Row", "icon": "list" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "values": { "type": "json" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_sections_case_items",
+  "info": { "displayName": "Case Item", "icon": "briefcase" },
+  "options": {},
+  "attributes": {
+    "metric": { "type": "string" },
+    "description": { "type": "text" }
+  }
+}

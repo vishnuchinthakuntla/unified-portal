@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_product_cards",
+  "info": { "displayName": "Product Card", "icon": "box" },
+  "options": {},
+  "attributes": {
+    "productKey": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "text" },
+    "linkUrl": { "type": "string" },
+    "icon": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_resource_cards",
+  "info": { "displayName": "Resource Card", "icon": "document" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" },
+    "linkText": { "type": "string" },
+    "linkUrl": { "type": "string" },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["document", "chart", "calculator"],
+      "default": "document"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+/* Mobile nav toggle — added since the original design hides .navlinks
+   below 980px but never builds a way to reopen them */
+
+.nav-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 34px;
+  height: 34px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav-burger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.nav-burger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-burger.open span:nth-child(2) {
+  opacity: 0;
+}
+.nav-burger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.nav-mobile-panel {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-mobile-panel a,
+.nav-mobile-panel button {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.nav-mobile-panel.open {
+  max-height: 480px;
+  padding: 12px 24px 20px;
+}
+
+@media (max-width: 980px) {
+  .nav-burger {
+    display: flex;
+  }
+  .nav-mobile-panel {
+    display: flex;
+  }
+}

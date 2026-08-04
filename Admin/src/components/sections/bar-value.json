@@ -1,0 +1,8 @@
+{
+  "collectionName": "components_sections_bar_values",
+  "info": { "displayName": "Bar Value", "icon": "chart-bar" },
+  "options": {},
+  "attributes": {
+    "percent": { "type": "integer" }
+  }
+}

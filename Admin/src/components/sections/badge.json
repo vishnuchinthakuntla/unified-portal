@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_badges",
+  "info": { "displayName": "Badge", "icon": "shield" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["shield", "clock"],
+      "default": "shield"
+    }
+  }
+}

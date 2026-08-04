@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_ai_showcases",
+  "info": { "displayName": "AI Showcase", "icon": "cpu" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.ai-feature"
+    },
+    "chatTitle": { "type": "string" },
+    "chatMessages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.chat-message"
+    },
+    "chatInputPlaceholder": { "type": "string" }
+  }
+}

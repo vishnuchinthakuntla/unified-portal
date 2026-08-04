@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_sections_stories",
+  "info": { "displayName": "Story", "icon": "quote" },
+  "options": {},
+  "attributes": {
+    "metric": { "type": "string" },
+    "quote": { "type": "text" },
+    "personName": { "type": "string" },
+    "personRole": { "type": "string" }
+  }
+}

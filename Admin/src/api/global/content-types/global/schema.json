@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": "Site-wide header and footer content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logoText": { "type": "string" },
+    "logoSubtext": { "type": "string" },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.nav-link"
+    },
+    "loginLabel": { "type": "string" },
+    "headerCtaText": { "type": "string" },
+    "footerTagline": { "type": "text" },
+    "footerCtaText": { "type": "string" },
+    "footerColumns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.footer-column"
+    },
+    "copyrightText": { "type": "string" },
+    "legalText": { "type": "string" }
+  }
+}

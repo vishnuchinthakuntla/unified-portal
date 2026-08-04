@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_pricings",
+  "info": { "displayName": "Pricing", "icon": "price-tag" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.pricing-product"
+    }
+  }
+}

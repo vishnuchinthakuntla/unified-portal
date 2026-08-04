@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_sections_editions",
+  "info": { "displayName": "Edition", "icon": "layer" },
+  "options": {},
+  "attributes": {
+    "label": { "type": "string" },
+    "active": { "type": "boolean", "default": false }
+  }
+}

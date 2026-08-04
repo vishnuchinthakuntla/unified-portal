@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_sections_ai_features",
+  "info": { "displayName": "AI Feature", "icon": "cpu" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "text" }
+  }
+}

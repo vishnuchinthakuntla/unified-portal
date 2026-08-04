@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_sections_kpis",
+  "info": { "displayName": "KPI", "icon": "chart-line" },
+  "options": {},
+  "attributes": {
+    "value": { "type": "string" },
+    "label": { "type": "string" }
+  }
+}

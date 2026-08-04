@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_demo_cases",
+  "info": { "displayName": "Demo Cases", "icon": "play" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "videoThumbnail": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "videoLabel": { "type": "string" },
+    "caseStudies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.case-item"
+    }
+  }
+}

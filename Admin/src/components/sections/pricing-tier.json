@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_pricing_tiers",
+  "info": { "displayName": "Pricing Tier", "icon": "price-tag" },
+  "options": {},
+  "attributes": {
+    "name": { "type": "string" },
+    "price": { "type": "string" },
+    "period": { "type": "string" },
+    "ctaText": { "type": "string" },
+    "featured": { "type": "boolean", "default": false }
+  }
+}

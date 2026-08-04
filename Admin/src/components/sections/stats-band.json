@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_stats_bands",
+  "info": { "displayName": "Stats Band", "icon": "chart-bar" },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.stat-item"
+    }
+  }
+}

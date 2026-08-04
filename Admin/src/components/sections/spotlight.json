@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_spotlights",
+  "info": { "displayName": "Spotlight", "icon": "star" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.feature-line"
+    },
+    "editions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.edition"
+    },
+    "visualProductName": { "type": "string" },
+    "visualBadge": { "type": "string" },
+    "visualBars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.bar-value"
+    },
+    "visualKpis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.kpi"
+    }
+  }
+}

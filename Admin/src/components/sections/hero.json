@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": { "displayName": "Hero", "icon": "rocket" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "headingEmphasis": { "type": "string" },
+    "subheading": { "type": "text" },
+    "searchPlaceholder": { "type": "string" },
+    "primaryCtaText": { "type": "string" },
+    "primaryCtaUrl": { "type": "string" },
+    "secondaryCtaText": { "type": "string" },
+    "secondaryCtaUrl": { "type": "string" },
+    "trustLabel": { "type": "string" },
+    "trustTags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tag"
+    }
+  }
+}

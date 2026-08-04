@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_product_grids",
+  "info": { "displayName": "Product Grid", "icon": "grid" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "filterChips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tag"
+    },
+    "techTags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tag"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.product-card"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_resources_leads",
+  "info": { "displayName": "Resources Lead", "icon": "envelope" },
+  "options": {},
+  "attributes": {
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.resource-card"
+    },
+    "leadFormHeading": { "type": "string" },
+    "leadFormSubtext": { "type": "string" },
+    "productOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.tag"
+    },
+    "submitButtonText": { "type": "string" },
+    "disclaimerText": { "type": "string" },
+    "successHeading": { "type": "string" },
+    "successText": { "type": "string" }
+  }
+}
